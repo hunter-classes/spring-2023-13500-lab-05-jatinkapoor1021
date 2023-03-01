@@ -1,8 +1,8 @@
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
-//#include <cstdlib>
-//#include <climits>
-//#include <string>
-//#include <fstream>
+#include <cstdlib>
+#include <climits>
+#include <string>
+#include <fstream>
 #include "doctest.h"
 #include "funcs.h"
 

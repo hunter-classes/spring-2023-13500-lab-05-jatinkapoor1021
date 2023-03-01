@@ -1,8 +1,8 @@
 #include <iostream>
-//#include <cstdlib>
-//#include <climits>
-//#include <string>
-//#include <fstream>
+#include <cstdlib>
+#include <climits>
+#include <string>
+#include <fstream>
 #include "funcs.h"
 
 int main(){
@@ -48,8 +48,8 @@ int main(){
     std::cout << "No \n";
   }
 
-  std::cout << "Task B: Is 18 a prime: \n";
-  if(isPrime(18) == true){
+  std::cout << "Task B: Is 17 a prime: \n";
+  if(isPrime(17) == true){
     std::cout << "Yes \n";
   }
   else{
@@ -68,7 +68,7 @@ std::cout << "Task D: The number of primes in range (3,15) is: \n";
 std::cout << countPrimes(3,15) << "\n";
 
 std::cout << "Task D: The number of primes in range (15,35) is: \n";
-std::cout << countPrimes(15,35) << "\n";
+std::cout << countPrimes(15,45) << "\n";
 
 //Task E
 std::cout << "Task E: Is 5 a twin prime: \n";
@@ -90,7 +90,7 @@ else{
 
 //Task F
 std::cout << "Task F: The next twin prime from 8 is: \n";
-std::cout << nextTwinPrime(7) << "\n";
+std::cout << nextTwinPrime(8) << "\n";
 
 std::cout << "Task F: The next twin prime from 22 is: \n";
 std::cout << nextTwinPrime(22) << "\n";
@@ -99,14 +99,14 @@ std::cout << "Task F: The next twin prime from 49 is: \n";
 std::cout << nextTwinPrime(49) << "\n";
 
 //Task G
-std::cout << "Task G: The largest twin prime in range (1,5) is: \n";
-std::cout << largestTwinPrime(1,5) << "\n";
+std::cout << "Task G: The largest twin prime in range (1,15) is: \n";
+std::cout << largestTwinPrime(1,15) << "\n";
 
-std::cout << "Task G: The largest twin prime in range (11, 18) is: \n";
-std::cout << largestTwinPrime(11,18) << "\n";
+std::cout << "Task G: The largest twin prime in range (11, 28) is: \n";
+std::cout << largestTwinPrime(11,28) << "\n";
 
-std::cout << "Task G: The largest twin prime in range (15,25) is: \n";
-std::cout << largestTwinPrime(15,25) << "\n";
+std::cout << "Task G: The largest twin prime in range (15,45) is: \n";
+std::cout << largestTwinPrime(15,45) << "\n";
 
   return 0;
 }
