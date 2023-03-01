@@ -6,7 +6,7 @@
 #include "doctest.h"
 #include "funcs.h"
 
-TEST_CASE("Divisibility Base Cases"){
+TEST_CASE("The Cases"){
     CHECK(isDivisibleBy(110,5) == true);
     CHECK(isDivisibleBy(45,8) == false);
     CHECK(isPrime(5) == true);
