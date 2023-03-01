@@ -7,22 +7,22 @@
 #include "funcs.h"
 
 TEST_CASE("Divisibility Base Cases"){
-    CHECK(isDivisibleBy(100,25) == true);
-    CHECK(isDivisibleBy(35,17) == false);
-    CHECK(isPrime(1) == false);
-    CHECK(isPrime(2) == true);
-    CHECK(isPrime(9) == false);
-    CHECK(nextPrime(14) == 17);
-    CHECK(nextPrime(17) == 19);
-    CHECK(countPrimes(1,10) == 4);    
-    CHECK(countPrimes(1,50) == 15);
-    CHECK(isTwinPrime(3) == true);
+    CHECK(isDivisibleBy(110,5) == true);
+    CHECK(isDivisibleBy(45,8) == false);
+    CHECK(isPrime(5) == true);
+    CHECK(isPrime(10) == false);
+    CHECK(isPrime(15) == false);
+    CHECK(isPrime(17) == true);
+    CHECK(nextPrime(10) == 11);
+    CHECK(nextPrime(24) == 29);
+    CHECK(countPrimes(3,15) == 5);    
+    CHECK(countPrimes(15,35) == 8);
+    CHECK(isTwinPrime(5) == true);
     CHECK(isTwinPrime(9) == false);
-    CHECK(isTwinPrime(37) == false);
-    CHECK(nextTwinPrime(14) == 17);
-    CHECK(nextTwinPrime(17) == 19);
-    CHECK(nextTwinPrime(19) == 29);
-    CHECK(largestTwinPrime(1,10) == 7);
-    CHECK(largestTwinPrime(23,25) == -1);
-    CHECK(largestTwinPrime(31,37) == 31);
+    CHECK(nextTwinPrime(8) == 11);
+    CHECK(nextTwinPrime(22) == 29);
+    CHECK(nextTwinPrime(49) == 59);
+    CHECK(largestTwinPrime(1,15) == 13);
+    CHECK(largestTwinPrime(11,28) == 19);
+    CHECK(largestTwinPrime(15,45) == 43);
 }
