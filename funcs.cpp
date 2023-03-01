@@ -6,12 +6,14 @@
 #include "funcs.h"
 
 //Task A
-bool isDivisibleBy(int dividend, int divisor){
+//bool
+int isDivisibleBy(int dividend, int divisor){
     return(dividend % divisor == 0);
 }
 
 //Task B
-bool isPrime(int num){
+//bool
+int isPrime(int num){
     if(num < 2){
         return false;
     }
@@ -44,7 +46,8 @@ int countPrimes(int num_1, int num_2){
 }
 
 //Task E
-bool isTwinPrime(int num){
+//bool
+int isTwinPrime(int num){
     return(isPrime(num) && (isPrime(num+2) || isPrime(num-2)));
 }
 
