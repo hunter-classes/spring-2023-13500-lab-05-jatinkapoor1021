@@ -1,6 +1,10 @@
+//#include <cstdlib>
+//#include <climits>
+//#include <string>
+//#include <fstream>
 #pragma once
 
-// add prototypes here
+
 bool isDivisibleBy(int dividend, int divisor);
 bool isPrime(int num);
 int nextPrime(int num);
